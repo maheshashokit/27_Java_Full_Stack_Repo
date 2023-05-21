@@ -15,5 +15,24 @@ public class HasAInheritanceClient {
 		//Calling the display methods using Passsenger Object
 		pas.displayPassengerDetails();
 		pas.add.displayAddressInfo();
+		
+		System.out.println("Passenger ::::" + pas);
+		System.out.println("Passenger ::::" + pas.toString());
+		
+		Integer i = 30;
+		System.out.println("Integer :::::" + i);
+		System.out.println("Integer :::::" + i.toString());
+		
+		//Widening i.e.,Implicit Casting
+		long lg =36987;
+		System.out.println("lg ====" + lg);
+		float ft = lg;
+		System.out.println("Float Value::::" + ft);
+		
+		//narrowing i.e.,Explicit Casting
+		int a = 40000;
+		System.out.println("a =" + a);
+		short sh =(short) a;
+		System.out.println("sh =" + sh);
 	}
 }

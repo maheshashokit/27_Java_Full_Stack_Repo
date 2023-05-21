@@ -25,5 +25,6 @@ public class HierarchicalInheritanceClient {
 		 System.out.println(t.toString());
 		 //printing the Developer Object
 		 System.out.println(dev.toString());
+		 System.out.println("Company Name::::" + Employee.companyName);
 	}
 }
