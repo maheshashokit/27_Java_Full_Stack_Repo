@@ -1,10 +1,9 @@
 package com.ashokit.iostreams;
 
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-public class ByteArrayOutputStreamDemo {
+public class ByteArrayOutputStreamDemo{
 
 	public static void main(String[] args) {
 
