@@ -73,6 +73,11 @@ public class ArrayListDemo {
 		System.out.println("Checking Empty or not::::" + al.isEmpty());
 		System.out.println("Checking Empty or not::::" + clonedList.isEmpty());
 		
+		//making the collection as readonly
+		System.out.println("ArrayList Data ::::" + clonedList);
+		List unmodifedList = Collections.unmodifiableList(clonedList);
+		System.out.println("UnmodifiedList::::" + unmodifedList);
+		unmodifedList.add("Naresh"); //UnsupportedOperationException
+		System.out.println("Final Cloned List:::::" + clonedList);
 	}
-
 }
